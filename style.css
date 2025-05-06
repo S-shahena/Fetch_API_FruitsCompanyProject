@@ -1,0 +1,47 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#fruitsContent{
+    width: 97%;
+    background-color: rgb(247, 247, 247);
+    margin: 0 auto;
+    border-radius: 5px;
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+    
+}
+
+#fruitsCard{
+
+    width: 300px;
+    background-color: rgb(147, 185, 223);
+    border-radius: 5px;
+    padding: 4px;
+    margin-bottom: 5px;
+    box-shadow: 2px, 7px 1px rgb(147, 185, 223);
+}
+#fruitsCard h3{
+    margin-bottom: 10px;
+    color:rgb(82, 78, 78) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#fruitsCard img{
+    width: 100%;
+    border-radius: 5px;
+}
+#fruitsCard .description{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+#fruitsCard .costP{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    color: floralwhite;
+    padding: 10px;
+}
